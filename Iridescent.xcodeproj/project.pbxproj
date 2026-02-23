@@ -10,9 +10,22 @@
 		B01E84B42F4CE1C300B38100 /* Iridescent.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Iridescent.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		B01E84CA2F4CEF1200B38100 /* Exceptions for "Iridescent" folder in "Iridescent" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			platformFiltersByRelativePath = {
+				Shaders.metal = (ios, macos, );
+			};
+			target = B01E84B32F4CE1C300B38100 /* Iridescent */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		B01E84B62F4CE1C300B38100 /* Iridescent */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				B01E84CA2F4CEF1200B38100 /* Exceptions for "Iridescent" folder in "Iridescent" target */,
+			);
 			path = Iridescent;
 			sourceTree = "<group>";
 		};
